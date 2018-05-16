@@ -1,0 +1,27 @@
+.background-header-eshop{
+  background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)95%), url(../images/projet_eshop_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .background-header-monde-eshop{
+    background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)95%), url(../images/projet_eshop_header_HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  }
+}
+
+.background-color-eshop{
+  background: linear-gradient(90deg, #7ea2a8 20%, #64919e 80%);
+}
+
+@media only screen and (max-width: 767px) {
+
+.background-header-eshop{
+  background-position: 18% 50%;
+}
+}
+

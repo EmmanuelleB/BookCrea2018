@@ -1,0 +1,32 @@
+.background-header-aeroport{
+  background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)95%), url(../images/projet_aeroport_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .background-header-aeroport{
+    background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)95%), url(../images/projet_aeroport_header_HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  }
+}
+
+.background-color-aeroport{
+  background: linear-gradient(90deg, #978e85 20%, #a79e95 80%);
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.background-color-aeroport{
+  background: linear-gradient(90deg, #9f9993 20%, #a79e95 80%);
+}
+
+.background-header-aeroport{
+  background-position: 18% 50%;
+}
+}
+

@@ -1,0 +1,108 @@
+/*header*/
+
+
+.block-apropos-img-1{
+  background-image: url(../images/a-propos_header_1_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-apropos-img-2{
+  background-image: url(../images/a-propos_header_2_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-apropos-img-3{
+  background-image: url(../images/a-propos_header_3_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-apropos-img-4{
+  background-image: url(../images/a-propos_header_4_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .block-apropos-img-1{
+    background-image: url(../images/a-propos_header_1_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
+
+  .block-apropos-img-2{
+    background-image: url(../images/a-propos_header_2_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
+
+  .block-apropos-img-3{
+    background-image: url(../images/a-propos_header_3_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
+
+  .block-apropos-img-4{
+    background-image: url(../images/a-propos_header_4_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
+}
+
+
+
+/*cv*/
+
+
+#element-botte{
+  position: absolute;
+  left: 38%;
+  top:40%;
+  height: 18vh;
+  z-index: 2;
+}
+
+#element-etoile{
+  position: absolute;
+  left: 45%;
+  top:19%;
+  height: 7vh;
+  z-index: 3;
+
+}
+
+#element-chapeau{
+  position: absolute;
+  left: 37.5%;
+  top: 2.5%;
+  height: 12vh;
+  z-index: 4;
+}
+
+

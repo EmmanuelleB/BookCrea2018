@@ -1,0 +1,90 @@
+/*header*/
+
+.block-contact-img-1{
+  background-image: url(../images/contact_header_1_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-contact-img-2{
+  background-image: url(../images/contact_header_2_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-contact-img-3{
+  background-image: url(../images/contact_header_3_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-contact-img-4{
+  background-image: url(../images/contact_header_4_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .block-contact-img-1{
+  background-image: url(../images/contact_header_1_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-contact-img-2{
+  background-image: url(../images/contact_header_2_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-contact-img-3{
+  background-image: url(../images/contact_header_3_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-contact-img-4{
+  background-image: url(../images/contact_header_4_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+ }
+}
+
+/*cv*/
+
+.container-illustration{
+  position: relative;
+}
+
+
+.img-container{
+  z-index: 1;
+  height: 80vh;
+}
+
+
+

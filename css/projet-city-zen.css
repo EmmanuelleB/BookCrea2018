@@ -1,0 +1,26 @@
+.background-header-cityzen{
+  background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)98%), url(../images/projet_cityzen_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .background-header-cityzen{
+    background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)98%), url(../images/projet_cityzen_header_HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  }
+}
+
+.background-color-cityzen{
+  background: linear-gradient(90deg, #a21d29 20%, #98041d 80%);
+}
+
+@media only screen and (max-width: 767px) {
+.background-header-cityzen{
+  background-position: 40% 50%;
+}
+}
+

@@ -1,0 +1,30 @@
+.background-header-pures-origines{
+  background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)95%), url(../images/projet_kenya_mexique_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .background-header-pures-origines{
+    background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)95%), url(../images/projet_kenya_mexique_header_HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  }
+}
+
+.background-color-pures-origines{
+  background: linear-gradient(90deg, rgb(145, 125,105)60%, rgb(123,104,93)90%);
+}
+
+@media only screen and (max-width: 767px) {
+
+.background-color-pures-origines{
+  background: linear-gradient(90deg, #a99786 60%, #9f8d7b 90%);
+}
+
+.background-header-pures-origines{
+  background-position: 10% 50%;
+}
+}

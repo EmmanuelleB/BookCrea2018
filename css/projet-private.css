@@ -1,0 +1,21 @@
+.background-header-private{
+  background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)98%), url(../images/projet_private_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .background-header-private{
+    background: linear-gradient(180deg, rgba(0,0,0,0)20%, rgba(0,0,0,1)98%), url(../images/projet_private_header_HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  }
+}
+
+.background-color-private{
+   background: linear-gradient(90deg, #99112f 60%, #ab1e2b 90%);
+}
+
+

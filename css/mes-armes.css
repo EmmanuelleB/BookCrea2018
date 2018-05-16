@@ -1,0 +1,93 @@
+/*header*/
+
+.block-armes-img-1{
+  background-image: url(../images/mes_armes_header_1_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-armes-img-2{
+  background-image: url(../images/mes_armes_header_2_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-armes-img-3{
+  background-image: url(../images/mes_armes_header_3_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-armes-img-4{
+  background-image: url(../images/mes_armes_header_4_420x1050.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
+  .block-armes-img-1{
+  background-image: url(../images/mes_armes_header_1_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-armes-img-2{
+  background-image: url(../images/mes_armes_header_2_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-armes-img-3{
+  background-image: url(../images/mes_armes_header_3_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+}
+
+.block-armes-img-4{
+  background-image: url(../images/mes_armes_header_4_640x1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-position: center;
+  height: 100vh;
+ }
+}
+
+/*cv*/
+
+
+#element-fleche-org{
+  position: absolute;
+  left: 25%;
+  top:30%;
+  z-index: 2;
+}
+
+#element-fleche-rge{
+  position: absolute;
+  left: 23%;
+  top:40%;
+  z-index: 3;
+}
+

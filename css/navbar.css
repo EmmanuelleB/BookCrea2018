@@ -1,0 +1,94 @@
+/*navbar*/
+.navbar{
+  font-family: 'Rubik', sans-serif;
+  background-color: rgba(255,255,255,0.5);
+  font-weight: 300;
+  border: none;
+}
+
+/*navbar left side*/
+.navbar-brand{
+  float: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo{
+  width:75px;
+}
+
+.navbar-brand p,
+.navbar-default .navbar-nav>li>a{
+  color: #000000;
+}
+
+.navbar-travaux{
+  font-family: 'Rubik', sans-serif;
+  background-color: transparent;
+  font-weight: 300;
+  border: none;
+}
+
+/*MEDIA QUERIES*/
+
+/* =====================
+desktops ++
+=====================*/
+@media only screen and (min-width: 1450px){
+
+/* font navbar left */
+.navbar-brand p{
+  font-size: 0.8rem;
+  line-height: 1rem;
+}
+
+/* font navbar right */
+.navbar-default .navbar-nav>li>a{
+  font-size: 0.9rem;
+}
+}
+
+/* =====================
+desktops and --
+=====================*/
+@media only screen and (max-width: 1449px){
+
+/* font navbar left */
+.navbar-brand p{
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+}
+
+/* font navbar right */
+.navbar-default .navbar-nav>li>a{
+  font-size: 0.8rem;
+}
+}
+
+/* =====================
+tablets and ++
+=====================*/
+@media only screen and (min-width: 768px){
+
+/*selection btn navbar*/
+.navbar-default .navbar-nav>li>a:hover{
+  border-bottom: 2px solid black;
+}
+}
+
+/* =====================================
+only smartphone and smarphone landscape
+ ===================================== */
+@media only screen and (max-width: 767px){
+
+/*selection btn navbar*/
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: rgba(220,220,220,0.5);
+}
+
+/*hamburger*/
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+  background-color: transparent;
+}
+}
