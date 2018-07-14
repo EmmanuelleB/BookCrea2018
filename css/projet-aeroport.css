@@ -21,9 +21,6 @@
 
 @media only screen and (max-width: 767px) {
 
-.background-color-aeroport{
-  background: linear-gradient(90deg, #9f9993 20%, #a79e95 80%);
-}
 
 .background-header-aeroport{
   background-position: 18% 50%;
