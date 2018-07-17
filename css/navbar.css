@@ -29,6 +29,15 @@
   border: none;
 }
 
+/*NAVBAR FOR BLACK BACKGROUND*/
+/*navbar*/
+.navbar-dark{
+  font-family: 'Rubik', sans-serif;
+  background-color: rgba(255,255,255,0.8);
+  font-weight: 300;
+  border: none;
+}
+
 /*MEDIA QUERIES*/
 
 /* =====================
@@ -101,11 +110,3 @@ only smartphone and smarphone landscape
 }
 }
 
-/*NAVBAR FOR BLACK BACKGROUND*/
-/*navbar*/
-.navbar-dark{
-  font-family: 'Rubik', sans-serif;
-  background-color: rgba(255,255,255,0.8);
-  font-weight: 300;
-  border: none;
-}
