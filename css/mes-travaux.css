@@ -1,6 +1,6 @@
 /*header*/
 
-.block-travaux-img-1{
+.block-travaux-img-1 {
   background-image: url(../images/travaux_header_1_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
   height: 100vh;
 }
 
-.block-travaux-img-2{
+.block-travaux-img-2 {
   background-image: url(../images/travaux_header_2_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
   height: 100vh;
 }
 
-.block-travaux-img-3{
+.block-travaux-img-3 {
   background-image: url(../images/travaux_header_3_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@
   height: 100vh;
 }
 
-.block-travaux-img-4{
+.block-travaux-img-4 {
   background-image: url(../images/travaux_header_4_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,152 +36,172 @@
   height: 100vh;
 }
 
-@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
-.block-travaux-img-1{
-  background-image: url(../images/travaux_header_1_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
+@media (min-width: 1450px), (-webkit-min-device-pixel-ratio: 2) {
+  .block-travaux-img-1 {
+    background-image: url(../images/travaux_header_1_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
+
+  .block-travaux-img-2 {
+    background-image: url(../images/travaux_header_2_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
+
+  .block-travaux-img-3 {
+    background-image: url(../images/travaux_header_3_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
+
+  .block-travaux-img-4 {
+    background-image: url(../images/travaux_header_4_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
 }
 
-.block-travaux-img-2{
-  background-image: url(../images/travaux_header_2_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
-}
-
-.block-travaux-img-3{
-  background-image: url(../images/travaux_header_3_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
-}
-
-.block-travaux-img-4{
-  background-image: url(../images/travaux_header_4_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
-}
-}
-
-.container-background-black{
+.container-background-black {
   background-color: black;
   padding: 6% 6%;
 }
 
-
-.card{
+.card {
   position: relative;
   height: 210px;
   color: white;
   margin: 15px;
   border: 1px solid white;
-
 }
 
-.card1{
+.card1 {
   background: url(../images/projet_kenya_mexique_card.jpg);
   background-size: cover;
 }
 
-.card2{
+.card2 {
   background: url(../images/projet_lucce_card.jpg);
   background-size: cover;
-
 }
 
-.card3{
+.card3 {
   background: url(../images/projet_aeroport_card.jpg);
   background-size: cover;
-
 }
 
-.card4{
+.card4 {
   background: url(../images/projet_monde_merveilleux_card.jpg);
   background-size: cover;
-
 }
 
-.card5{
+.card5 {
   background: url(../images/projet_eshop_card.jpg);
   background-size: cover;
-
 }
 
-.card6{
+.card6 {
   background: url(../images/projet_site_card.jpg);
   background-size: cover;
-
 }
 
-.card7{
+.card7 {
   background: url(../images/projet_memoire_card.jpg);
   background-size: cover;
-
 }
 
-.card8{
+.card8 {
   background: url(../images/projet_detour_card.jpg);
   background-size: cover;
-
 }
 
-.card9{
+.card9 {
   background: url(../images/projet_designers_card.jpg);
   background-size: cover;
-
 }
 
-.card10{
+.card10 {
   background: url(../images/projet_cityzen_card.jpg);
   background-size: cover;
-
 }
 
-.card11{
+.card11 {
   background: url(../images/projet_private_card.jpg);
   background-size: cover;
-
 }
 
-.card12{
+/* .card12{
   background: url(../images/projet_website_card.jpg);
   background-size: cover;
 
+} */
+
+.card13 {
+  background: url(../images/projet_charte_private_card.jpg);
+  background-size: cover;
+}
+.card14 {
+  background: url(../images/projet_vinted_card2.jpg);
+  /* background-size: cover; */
+  background-size: cover;
+  background-position: center;
+}
+.card15 {
+  background: url(../images/projet_marvel_card2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card16 {
+  background: url(../images/projet_deliveroo_card2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card17 {
+  background: url(../images/projet_netflix_card.jpg);
+  background-size: cover;
+}
+.card18 {
+  background: url(../images/projet_tripadvasor_card2.jpg);
+  background-size: cover;
+}
+.card19 {
+  background: url(../images/projet_emoji_card2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.card-description{
+.card-description {
   position: absolute;
   padding: 20px;
 }
 
-.card-description p{
+.card-description p {
   color: #ffffff;
 }
 
-.card-categorie{
+.card-categorie {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
 
-.card-description h4{
+.card-description h4 {
   font-weight: 700;
   padding-top: 0.3rem;
 }
 
-.card-background{
+.card-background {
   height: 208px;
-  background: rgba(0,0,0,0.7);
-
+  background: rgba(0, 0, 0, 0.7);
 }
-

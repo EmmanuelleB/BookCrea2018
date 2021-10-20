@@ -1,6 +1,6 @@
 /*header*/
 
-.block-armes-img-1{
+.block-armes-img-1 {
   background-image: url(../images/mes_armes_header_1_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
   height: 100vh;
 }
 
-.block-armes-img-2{
+.block-armes-img-2 {
   background-image: url(../images/mes_armes_header_2_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
   height: 100vh;
 }
 
-.block-armes-img-3{
+.block-armes-img-3 {
   background-image: url(../images/mes_armes_header_3_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@
   height: 100vh;
 }
 
-.block-armes-img-4{
+.block-armes-img-4 {
   background-image: url(../images/mes_armes_header_4_420x1050.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,58 +36,65 @@
   height: 100vh;
 }
 
-@media(min-width: 1450px),(-webkit-min-device-pixel-ratio: 2){
-  .block-armes-img-1{
-  background-image: url(../images/mes_armes_header_1_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
-}
+@media (min-width: 1450px), (-webkit-min-device-pixel-ratio: 2) {
+  .block-armes-img-1 {
+    background-image: url(../images/mes_armes_header_1_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
 
-.block-armes-img-2{
-  background-image: url(../images/mes_armes_header_2_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
-}
+  .block-armes-img-2 {
+    background-image: url(../images/mes_armes_header_2_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
 
-.block-armes-img-3{
-  background-image: url(../images/mes_armes_header_3_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
-}
+  .block-armes-img-3 {
+    background-image: url(../images/mes_armes_header_3_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
 
-.block-armes-img-4{
-  background-image: url(../images/mes_armes_header_4_640x1600.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-position: center;
-  height: 100vh;
- }
+  .block-armes-img-4 {
+    background-image: url(../images/mes_armes_header_4_640x1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-position: center;
+    height: 100vh;
+  }
 }
 
 /*cv*/
 
-
-#element-fleche-org{
+#element-fleche-org {
   position: absolute;
   left: 25%;
-  top:30%;
+  top: 30%;
   z-index: 2;
 }
 
-#element-fleche-rge{
+#element-fleche-rge {
   position: absolute;
   left: 23%;
-  top:40%;
+  top: 40%;
   z-index: 3;
 }
+.logoAdobe {
+  width: 2em;
+  margin: 0.5em;
+}
 
+.logoWeb {
+  font-size: 20px;
+  margin: 0.5em;
+}

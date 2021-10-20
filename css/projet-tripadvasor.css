@@ -1,0 +1,29 @@
+.background-header-tripadvasor {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 95%),
+    url(../images/projet_tripadvasor_header_HD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+}
+
+@media (min-width: 1450px), (-webkit-min-device-pixel-ratio: 2) {
+  .background-header-tripadvasor {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 95%),
+      url(../images/projet_tripadvasor_header_HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+  }
+}
+
+.background-color-tripadvasor {
+  background: linear-gradient(90deg, #fd5d5d 60%, #fa5555 90%);
+}
+
+@media only screen and (max-width: 767px) {
+  .background-header-tripadvasor {
+    background-position: 60% 50%;
+  }
+}
