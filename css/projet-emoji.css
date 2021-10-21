@@ -21,7 +21,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .background-color-emoji {
-    background: linear-gradient(90deg, #ecb1b5 60%, #ebb3b7 90%);
+  .background-header-emoji {
+    background-position: 60% 50%;
   }
 }

@@ -21,9 +21,3 @@
 .background-color-charte-private {
   background: linear-gradient(90deg, #99112f 60%, #ab1e2b 90%);
 }
-
-@media only screen and (max-width: 767px) {
-  .background-header-charte-private {
-    background-position: 60% 50%;
-  }
-}

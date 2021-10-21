@@ -21,7 +21,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .background-color-marvel {
-    background: linear-gradient(90deg, #a5a5a5 60%, #8d8d8d 90%);
+  .background-header-marvel {
+    background-position: 60% 50%;
   }
 }

@@ -21,7 +21,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .background-color-vinted {
-    background: linear-gradient(90deg, #10acb7 60%, #19c3cf 90%);
+  .background-header-vinted {
+    background-position: 60% 50%;
   }
 }

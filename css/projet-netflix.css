@@ -19,9 +19,3 @@
 .background-color-netflix {
   background: linear-gradient(90deg, #800202 60%, #800202 90%);
 }
-
-@media only screen and (max-width: 767px) {
-  .background-color-netflix {
-    background: linear-gradient(90deg, #91bf26 60%, #84b01c 90%);
-  }
-}
