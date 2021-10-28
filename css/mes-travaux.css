@@ -142,11 +142,10 @@
   background-size: cover;
 }
 
-/* .card12{
-  background: url(../images/projet_website_card.jpg);
+.card12 {
+  background: url(../images/projet_selecta_app_card.jpg);
   background-size: cover;
-
-} */
+}
 
 .card13 {
   background: url(../images/projet_charte_private_card.jpg);
