@@ -180,6 +180,11 @@
   background-size: cover;
   background-position: center;
 }
+.card20 {
+  background: url(../images/projet_myfirstjungle_card.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 .card-description {
   position: absolute;

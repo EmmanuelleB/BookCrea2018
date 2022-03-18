@@ -1,0 +1,23 @@
+.background-header-myfirstjungle {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 95%),
+    url(../images/projet_myfirstjungle_header_HD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  /* pour anciens Chrome et Safari */
+}
+
+@media (min-width: 1450px), (-webkit-min-device-pixel-ratio: 2) {
+  .background-header-myfirstjungle {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 95%),
+      url(../images/projet_myfirstjungle_header_HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+  }
+}
+
+.background-color-myfirstjungle {
+  background: linear-gradient(90deg, #238176 60%, #1c6a61 90%);
+}
